@@ -8,7 +8,7 @@
         <param name="image_transport" value="compressed" />
     </node>
 
-    <arg name="calibration" default="epson-11-29-2024" />
+    <arg name="calibration" default="epson-12-05-2024" />
     <arg name="rviz_config" default="$(find amazon_grant_projection)/rviz/pioneer_projector.rviz"/>
 
     <node name="camera_info" pkg="rostopic" type="rostopic"
